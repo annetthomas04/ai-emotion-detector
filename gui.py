@@ -47,7 +47,7 @@ show_text=[0]
 global frame_number
 
 def show_subject():      
-    cap1 = cv2.VideoCapture('C:/Users/Annet Thomas/OneDrive/Desktop/ksw.mp4')                                
+    cap1 = cv2.VideoCapture('C:/Users/Annet Thomas/OneDrive/Desktop/trial.mp4')                                
     if not cap1.isOpened():                             
         print("cant open the camera1")
     global frame_number
